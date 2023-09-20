@@ -1,0 +1,18 @@
+.button-round {
+    height: 25px;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--main-color);
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid;
+    background: none;
+    border-radius: 100%;
+}
+
+.button-round:disabled {
+    border-color: #E4E7F1;
+    color: #E4E7F1;
+}

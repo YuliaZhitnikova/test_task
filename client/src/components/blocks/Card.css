@@ -1,0 +1,22 @@
+.card {
+    margin-top: 20px;
+    background: #ffffff;
+    border: 2px solid var(--main-color);
+    border-radius: 5px;
+    padding: 10px 20px 30px;
+    text-align: center;
+}
+
+.card__title{
+    color: var(--main-color);
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 22px;
+
+}
+
+.flex-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
